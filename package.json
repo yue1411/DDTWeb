@@ -2,8 +2,8 @@
   "name": "sakura-jekyll-theme",
   "version": "1.0.0",
   "main": "index.html",
-  "repository": "git@github.com:kimfucious/sakura.git",
-  "author": "Kimfucious",
+  "repository": "git@github.com:yue1411/DDT.Web.git",
+  "author": "yue1411",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^8.4.1",
@@ -32,8 +32,7 @@
     "libvips": "^0.0.2",
     "pump": "^3.0.0",
     "run-sequence": "^2.2.1",
-    "sharp": "^0.20.2",
-    "natives": "^1.1.6"
+    "sharp": "^0.20.2"
   },
   "scripts": {
     "build": "gulp build",
