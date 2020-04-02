@@ -383,7 +383,9 @@ gulp.task("build:responsive-images", cb => {
           quality: 60,
           responsive: true,
           withMetadata: false,
-          withoutEnlargement: true
+          withoutEnlargement: true,
+          skipOnEnlargement: false,
+          errorOnEnlargement: false
         }
       )
     )

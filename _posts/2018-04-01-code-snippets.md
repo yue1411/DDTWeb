@@ -2,7 +2,7 @@
 title: Code Snippets 
 description: Examples of Code Snippets with Syntax Highlighting
 category: Sample
-image: markus-spiske-109588-unsplash.jpg
+image: markus-spiske-109588-unsplash.jpeg
 photo_credit: Photo by Markus Spiske on Unsplash
 ---
 

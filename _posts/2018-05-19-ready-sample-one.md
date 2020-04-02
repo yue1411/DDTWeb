@@ -2,7 +2,7 @@
 title: A Sampling
 description: A little bit of this, a little bit of that.
 category: Sample
-image: andre-benz-250740-unsplash.jpg
+image: andre-benz-250740-unsplash.jpeg
 image-caption: 
 image-source: Unsplash
 image-url: https://unsplash.com/photos/MsMISAIe8Qw
@@ -118,7 +118,7 @@ Images can be inserted using normal markdown syntax like this:
 
 ##### Small Image Using Markdown
 
-![Spock](http://www.togomeetings.com/wp-content/uploads/2017/08/luxury-spock-poster-and-gut-of-portland-premiere-for-the-love-of-spock-posters-4-128x128.jpg){:.rounded}
+![Spock](http://www.togomeetings.com/wp-content/uploads/2017/08/luxury-spock-poster-and-gut-of-portland-premiere-for-the-love-of-spock-posters-4-128x128.jpeg){:.rounded}
 
 ##### Large Image Using Markdown
 

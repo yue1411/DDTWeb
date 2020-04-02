@@ -2,7 +2,7 @@
 title: Figure Elements
 description:  Responsive images with captions
 category: Sample
-image: sora-sagano-639761-unsplash.jpg
+image: sora-sagano-639761-unsplash.jpeg
 image-caption: 
 image-source: Unsplash
 image-url: https://unsplash.com/photos/8sOZJ8JF0S8
@@ -31,7 +31,7 @@ The above will insert the `_figure.html` file as an include, which relies on _fr
 title: Figure Elements
 description:  Responsive images with captions
 category: Sample
-image: sora-sagano-639761-unsplash.jpg
+image: sora-sagano-639761-unsplash.jpeg
 image-caption:
 image-source: Unsplash
 image-url: https://unsplash.com/photos/8sOZJ8JF0S8
@@ -63,29 +63,29 @@ The logic goes a little somethin' like this (but maybe not exactly, as it's real
       {{ img_path | append: f[0] | append: relative_url }}-sm-2x.webp 2x
     " type="image/webp">
     <source media="(max-width: 576px)" srcset="
-      {{ img_path | append: f[0] | append: relative_url }}-sm-1x.jpg 1x,
-      {{ img_path | append: f[0] | append: relative_url }}-sm-2x.jpg 2x
+      {{ img_path | append: f[0] | append: relative_url }}-sm-1x.jpeg 1x,
+      {{ img_path | append: f[0] | append: relative_url }}-sm-2x.jpeg 2x
     " type="image/jpeg">
     <source media="(max-width: 768px)" srcset="
     {{ img_path | append: f[0] | append: relative_url }}-md-1x.webp 1x,
     {{ img_path | append: f[0] | append: relative_url }}-md-2x.webp 2x
     " type="image/webp">
     <source media="(max-width: 768px)" srcset="
-    {{ img_path | append: f[0] | append: relative_url }}-md-1x.jpg 1x,
-    {{ img_path | append: f[0] | append: relative_url }}-md-2x.jpg 2x
+    {{ img_path | append: f[0] | append: relative_url }}-md-1x.jpeg 1x,
+    {{ img_path | append: f[0] | append: relative_url }}-md-2x.jpeg 2x
     " type="image/jpeg">
     <source media="(min-width: 769px)" srcset="
     {{ img_path | append: f[0] | append: relative_url }}-xl-1x.webp 1x,
     {{ img_path | append: f[0] | append: relative_url }}-xl-2x.webp 2x
     " type="image/webp">
     <source media="(min-width: 769px)" srcset="
-    {{ img_path | append: f[0] | append: relative_url }}-xl-1x.jpg 1x,
-    {{ img_path | append: f[0] | append: relative_url }}-xl-2x.jpg 2x
+    {{ img_path | append: f[0] | append: relative_url }}-xl-1x.jpeg 1x,
+    {{ img_path | append: f[0] | append: relative_url }}-xl-2x.jpeg 2x
     " type="image/jpeg">
     <img srcset="
-        {{ img_path | append: f[0] | append: relative_url }}-sm-1x.jpg 576w,
-        {{ img_path | append: f[0] | append: relative_url }}-md-1x.jpg 768w,
-        {{ img_path | append: f[0] | append: relative_url }}-xl-1x.jpg 1440w" src="{{ img_path | append: f[0] | append: relative_url }}-md-1x.jpg"
+        {{ img_path | append: f[0] | append: relative_url }}-sm-1x.jpeg 576w,
+        {{ img_path | append: f[0] | append: relative_url }}-md-1x.jpeg 768w,
+        {{ img_path | append: f[0] | append: relative_url }}-xl-1x.jpeg 1440w" src="{{ img_path | append: f[0] | append: relative_url }}-md-1x.jpeg"
       alt="{{ page.title }}" class="figure-img rounded" type="image/jpeg">
   </picture>
   {%- if page.image-caption -%}
