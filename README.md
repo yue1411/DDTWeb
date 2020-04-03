@@ -4,6 +4,7 @@ title: Read Me
 ---
 
 # Sakura Jekyll Theme
+[![Netlify Status](https://api.netlify.com/api/v1/badges/34961cdd-2d2e-4dd2-bf4a-c71ef0e9188c/deploy-status)](https://app.netlify.com/sites/hungry-khorana-37eeb2/deploys)
 
 ![Build Status](https://travis-ci.org/kimfucious/sakura.svg?branch=master)
 

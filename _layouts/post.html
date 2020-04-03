@@ -6,14 +6,37 @@
   <div class="row">
     <div class="col">
     {%- if page.type == "post" -%}
-      <p class="lead text-black-50 text-right">
-        {{ page.date | date: "%b %-d, %Y" }}
+      <p class="lead text-black-50 text-right">       
+          Post date: {{ page.date | date: "%b %-d, %Y" }}<br> 
+          Dynamics calculation by: {{ page.author}}       
       </p>
+      <blockquote class ="ludwig"> 
+        <h5>Color Coding for Dynamics: </h5>
+        <img src="{{site.baseurl}}/assets/images/normal/color-code.jpg" alt="color-coding" style="width:300px;height:63px;">
+      </blockquote>
+      <br>
     {%- endif -%}
       <article>
         {{ content }}
       </article>
+    <!-- {%- if page.type == "post" -%}
+      <blockquote class ="ludwig">
+      <h5> Keywords and level of theory for the calculation:<br></h5>
+      <h6>TS optimization:</h6>
+      <samp>opt=(calcfc,ts,noeigen) freq b3lyp/6-31g(d) scf=xqc</samp> <br>
+      <h6> HP freq calculation:</h6>
+      <samp> freq=hpmodes b3lyp/6-31g(d)</samp> <br>
+      <h6> IRC calculateon (lqa keyword):</h6>
+      <samp>irc=(calcfc,maxpoints=300,lqa) b3lyp/6-31g(d)</samp> <br>
+      <h6> Dynamics:</h6>
+      <samp>progdyn.conf: method b3lyp/6-31g(d), classical 0</samp>
+    </blockquote>
+    {%- endif -%}   -->
     </div>
   </div>
 </section>
+
+<br>
+<br>
+
 {% include footer.html %}
