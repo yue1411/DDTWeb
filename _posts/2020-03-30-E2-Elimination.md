@@ -76,4 +76,3 @@ image: e2-chemdraw.jpeg
 <samp>progdyn.conf: method b3lyp/6-31g(d), classical 0</samp>
 
 <br>
-<br>
