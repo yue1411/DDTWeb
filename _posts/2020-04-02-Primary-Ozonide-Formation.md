@@ -17,7 +17,7 @@ image: ozonide-chemdraw.jpeg
                 <h5 class="text-muted text-center">Ozone and ethene react to form primary ozonide</h5>
                 <!-- <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; E2 elimination.</p>  -->
                 <p style="text-align:center;">
-                <img src="{{site.baseurl}}/assets/images/normal/ozonide-mechanism.jpg" alt="centered image" style="width:600px;height:214px;">
+                <img src="{{site.baseurl}}/assets/images/normal/ozonide-mechanism.jpg" alt="centered image" style="width:650px;height:214px;">
                 </p>
               </div>
             </div>

@@ -19,7 +19,7 @@ image: e2-chemdraw.jpeg
                 <h5 class="text-muted text-center">E2 elimination of bromo butane by methoxide.</h5>
                 <!-- <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; E2 elimination.</p>  -->
                 <p style="text-align:center;">
-                <img src="{{site.baseurl}}/assets/images/normal/e2-mechanism.jpg" alt="centered image" style="width:600px;height:126px;">
+                <img src="{{site.baseurl}}/assets/images/normal/e2-mechanism.jpg" alt="centered image" style="width:500px;height:126px;">
                 </p>
               </div>
             </div>

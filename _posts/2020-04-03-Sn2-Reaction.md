@@ -17,7 +17,7 @@ image: sn2-chemdraw.jpeg
                 <h5 class="text-muted text-center">SN2 reaction of chloromethane</h5>
                 <!-- <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; E2 elimination.</p>  -->
                 <p style="text-align:center;">
-                <img src="{{site.baseurl}}/assets/images/normal/sn2-mechanism.jpg" alt="centered image" style="width:500px;height:214px;">
+                <img src="{{site.baseurl}}/assets/images/normal/sn2-mechanism.jpg" alt="centered image" style="width:300px;height:214px;">
                 </p>
               </div>
             </div>
