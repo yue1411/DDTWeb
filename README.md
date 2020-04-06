@@ -3,15 +3,17 @@ layout: post
 title: Read Me
 ---
 [![Netlify Status](https://api.netlify.com/api/v1/badges/34961cdd-2d2e-4dd2-bf4a-c71ef0e9188c/deploy-status)]
+(https://app.netlify.com/sites/hungry-khorana-37eeb2/deploys)
 
-### Please 
+## Please 
 > Don't add/move/delete any file or folder unless you know what you are doing.
+>
 > Be careful about `_assets/`, nothing other than jpg/gif is allowed.
+>
 > Can only deploy on netlify locally using command line `netlify init`,`netlify deploy`. Remember push to Github before deploy. Note to change baseurl in `/_config.yml` before commit. `git init`, `git add .`, `git commit -m "nth commit"`, `git push origin master`. 
 
 # README from jekyll theme: 
 ## Sakura Jekyll Theme
-(https://app.netlify.com/sites/hungry-khorana-37eeb2/deploys)
 
 ![Build Status](https://travis-ci.org/kimfucious/sakura.svg?branch=master)
 

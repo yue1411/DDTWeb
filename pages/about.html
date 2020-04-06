@@ -10,19 +10,25 @@ permalink: /about/
           <div class="card-body">
             <h3 class="text-center">About this project</h3>
             <h5 class="text-muted">Why we are doing this</h5>
-            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;We establish this website which contains videos of representative trajectories 
-              for a variety of organic reactions. We focus on reactions taught in undergraduate organic chemistry courses. 
-              The goal is to provide instructors with videos they can show students of molecules vibrating in meaningful ways while reacting. 
-              In our experience, students generally come away from organic courses thinking that molecular structures transform smoothly 
-              from reactant(s) to transition state to product(s) (as in IRC pathways) — a misconception against which we intend to fight.
-                </p>
-            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;First, we use the DFT methods described above to locate TSSs for representative SN2, E2, 1,2-alkyl shift, alkene 
-              halogenation, hydride addition to an aldehyde, primary ozonide formation, Diels-Alder, and Cope rearrangement 
-              reactions, along with TSSs for amine inversion, rotation about the central C–C bond of butane and the first step of a chair 
-              flip. We then subject these to direct dynamics trajectory simulations as described above. For each reaction, we post
-               videos of representative trajectories for the most common means of connecting reactants and products along with animations of
-                IRC pathways for comparison. We also include videos of examples of rare trajectories to emphasize that these also occur. 
-                We envision this databank expanding continuously over time.</p>
+            
+            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;
+              We established this website to share videos of representative trajectories for a variety of organic reactions, with a focus on those taught in undergraduate organic chemistry courses. 
+            </p>
+            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;
+              Our goal is to provide instructors with videos they can show students of molecules vibrating in meaningful ways while reacting. In our experience, students generally come away from organic courses thinking that molecular structures transform smoothly from reactant(s) to transition state structure (TSS) to product(s) — a misconception against which we intend to fight.  
+            </p>
+            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;
+              First, we use density functional theory (DFT) methods to locate a TSS for a given reaction. We calculate an intrinsic reaction coordinates (IRC) for the reaction and display this as a movie. The changes in geometries shown in an IRC correspond to moving along a potential energy surface (PES).
+            </p>
+            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;
+              We also subject our TSS to direct dynamics trajectory simulations. In these simulations, internal vibrations of a reacting molecule are included. Unlike IRC movies, trajectory movies clearly show that bonds that do not break, for example, vibrate as molecules move from reactant(s) to product(s). 
+            </p>
+            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;
+              For each reaction, we post videos of representative trajectories (we calculate many to make sure those shown capture the most common features). We also include videos of examples of rare trajectories to emphasize that these occur.
+            </p>
+            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;
+              We envision this databank expanding continuously over time.
+            </p>
           </div>
         </div>
       </div>
@@ -39,7 +45,8 @@ permalink: /about/
           <div class="card-body">
             <h3 class="text-center">Introduction to Dynamics Calculation</h3>
             <h5 class="text-muted">What is dynamics?</h5>
-            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; To look at nonstatistical dynamic effects of organic reactions, <em>ab initio</em> dynamics trajectory calculations are done... </p> 
+            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; 
+              For an introduction to dynamics simulations, we invite you to read Dean’s <a href= " https://www.americanscientist.org/article/wiggling-and-jiggling">“Wiggling and Jiggling”</a> article for American Scientist. </p> 
             <h5 class="text-muted">Methods we are using </h5>
             <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; The program we are using is called <em>Progdyn</em>.</p> 
             <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; Details about how we setup the calculation can be found <a href="https://github.com/yue1411/notthatDDT/" class="text-info">here</a>.</p>
@@ -59,11 +66,14 @@ permalink: /about/
           <div class="card-body">
             <h3 class="text-center">Acknowledgement</h3>
             <h5 class="text-muted">Funding</h5>
-            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; This work is suppoted by NSF funding (CHE 0000000).</p> 
+            <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; This work is suppoted by NSF funding (CHE-1856416).</p> 
             <h5 class="text-muted">Resources</h5>
             &nbsp;&nbsp;&nbsp;&nbsp; This website is build using jekyll, html5 and bootstrap 4. Jekyll theme <code>sakura</code> @Kimfucious.
-            Responsice images build with Gulp. Blog with Bootstrap 4 and Sass. Publishing with Netlify.          
+            Responsive images build with Gulp. Blog with Bootstrap 4 and Sass. Publishing with Netlify. 
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;
+              The calculation by Tiffy were performed using XSEDE. The calculations by Misa were performed using Research Center for Computational Science, Okazaki, Japan.          
             Figures are generated with Schrodinger, BioRender, PyMOL, ChemDraw, molview.
+            </p>
           </div>
         </div>
       </div>

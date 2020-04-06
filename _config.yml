@@ -16,8 +16,8 @@ url: ""
 
 # Algolia Search
 algolia:
-  application_id: 4P42FOBOZA # Use your (non-admin) search only api key here.
-  index_name: sakura #Use an index you created on Algolia.
+  application_id: KXQ8X1AP4V  # Use your (non-admin) search only api key here.
+  index_name: DDTWeb #Use an index you created on Algolia.
 
 # Collections
 collections:

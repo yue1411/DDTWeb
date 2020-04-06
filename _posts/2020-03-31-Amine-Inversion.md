@@ -68,7 +68,7 @@ image: amine-chemdraw.jpeg
 <samp>opt=(calcfc,ts,noeigen) freq b3lyp/6-31g(d) scf=xqc</samp> <br>
 ###### HP freq calculation:
 <samp> freq=hpmodes b3lyp/6-31g(d)</samp> <br>
-###### IRC calculateon (lqa keyword):
+###### IRC calculation (lqa keyword):
 <samp>irc=(calcfc,maxpoints=300,lqa) b3lyp/6-31g(d)</samp> <br>
 ###### Dynamics:
 <samp>progdyn.conf: method b3lyp/6-31g(d), classical 0</samp>
