@@ -1,7 +1,7 @@
 # Site settings
 author: Tiffany
 baseurl: "https://hungry-khorana-37eeb2.netlify.com"
-# baseurl: ""
+baseurl: ""
 brand: DDT
 copyright: Dean J. Tantillo
 description: For a variety of organic reaction...
