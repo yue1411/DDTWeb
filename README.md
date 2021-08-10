@@ -16,7 +16,7 @@ title: Read Me
 >
 > Be careful about `_assets/`, nothing other than jpg/gif is allowed.
 >
-> Can only deploy on netlify locally using command line `netlify init`,`netlify deploy`. Remember push to Github before deploy. Note to change baseurl in `/_config.yml` before commit. `git init`, `git add .`, `git commit -m "nth commit"`, `git push origin master`. 
+> Can only deploy on netlify locally using command line `netlify init`,`netlify deploy`. Remember push to Github before deploy. Note to change baseurl in `/_config.yml` before commit. 
 
 
 <!-- 
