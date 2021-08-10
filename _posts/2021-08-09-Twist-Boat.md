@@ -3,7 +3,7 @@ title: Cyclohexane Conformational Change
 author: Michelle, Tiffy
 description: Twist to boat conformational change of cyclohexane.
 category: Sample
-image: cyclohexane_conformational_change_chemdraw.jpeg
+image: cyclohexane_chemdraw.jpeg
 ---
 
 
@@ -17,7 +17,7 @@ image: cyclohexane_conformational_change_chemdraw.jpeg
                 <h5 class="text-muted text-center">Twist to boat conformational change of cyclohexane</h5>
                 <!-- <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; E2 elimination.</p>  -->
                 <p style="text-align:center;">
-                <img src="{{site.baseurl}}/assets/images/normal/cyclohexane_conformational_change_chemdraw.jpg" alt="centered image" style="width:300px;height:214px;">
+                <img src="{{site.baseurl}}/assets/images/normal/cyclohexane_conformational_change_chemdraw.jpg" alt="centered image" style="width:550px;height:150px;">
                 </p>
               </div>
             </div>
@@ -34,7 +34,7 @@ image: cyclohexane_conformational_change_chemdraw.jpeg
             <h3 class="text-center">Movie of dynamics trajectory</h3>
             <h5 class="text-muted text-center">Major trajectory</h5>
                 <p style="text-align:center;">
-                <img src="{{site.baseurl}}/assets/images/normal/twistboat_md.gif" alt="centered image" style="width:600px;height:480px;">
+                <img src="{{site.baseurl}}/assets/images/normal/twistboat_md.gif" alt="centered image" style="width:550px;height:480px;">
                 </p>
           </div>
         </div>

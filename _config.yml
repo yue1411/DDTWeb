@@ -1,14 +1,15 @@
 # Site settings
 author: Tiffany Zhang
 baseurl: "https://hungry-khorana-37eeb2.netlify.com"
-baseurl: ""
+#baseurl: ""
 brand: DDT
 copyright: Dean J. Tantillo
 description: For a variety of organic reaction...
 email: djtantillo@ucdavis.edu
 title: DDT 
 url: ""
-
+##### check http://localhost:3000/index.html after you do $yarn serve #####
+##### comment out baseurl:"" line when you are ready to deploy
 # Not using because Gulp is now processing SCSS
 # sass:
 #   sass_dir: css

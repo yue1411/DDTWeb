@@ -17,7 +17,7 @@ image: bullvalene.jpeg
                 <h5 class="text-muted text-center">Degenerate cope rearrangement of bullvalene</h5>
                 <!-- <p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp; E2 elimination.</p>  -->
                 <p style="text-align:center;">
-                <img src="{{site.baseurl}}/assets/images/normal/bullvalene_cope_rearrangement_chemdraw.jpg" alt="centered image" style="width:300px;height:214px;">
+                <img src="{{site.baseurl}}/assets/images/normal/bullvalene_cope_rearrangement_chemdraw.jpg" alt="centered image" style="width:500px;height:170px;">
                 </p>
               </div>
             </div>
