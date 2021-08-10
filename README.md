@@ -8,7 +8,8 @@ title: Read Me
 > 1. Have your gif and jpg images ready in _assets/ folder. Make sure the dimentions of the cover figures are reasonable. Examples can be found in _assets/ folder. You can change figure dimentions for other figures in _posts/.md file.
 >	2. Open DDTWeb folder in code editor. Make new posts in _posts/ folder for your new reactions. Make edits to .md file.
 >	3. To build:`$lsof -i:3000`, `$kill -9 PID`, `$yarn serve`
->	4. To push: `$git init`, `$git add .` , `$git commit -m "3rd commit"`, `$git push origin master`, To deploy: `$netlify init`, `$netlify deploy`.
+>	4. To push: `$git init`, `$git add .` , `$git commit -m "3rd commit"`, `$git push origin master`, 
+> 5. To deploy: `$netlify init`, `$netlify deploy`.
 
 ## Notes 
 > Don't add/move/delete any file or folder.
