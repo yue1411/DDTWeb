@@ -3,7 +3,6 @@ layout: post
 title: Read Me
 --- -->
 ![Netlify Status](https://api.netlify.com/api/v1/badges/34961cdd-2d2e-4dd2-bf4a-c71ef0e9188c/deploy-status)
-(https://app.netlify.com/sites/hungry-khorana-37eeb2/deploys)
 
 ## Add new trajectories 
 > 1. Have your gif and jpg images ready in _assets/ folder. Make sure the dimentions of the cover figures are reasonable. Examples can be found in _assets/ folder. You can change figure dimentions for other figures in _posts/.md file.
