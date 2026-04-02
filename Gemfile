@@ -13,6 +13,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.10"
 gem "nokogiri", "~> 1.16"
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-algolia"
