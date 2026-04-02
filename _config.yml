@@ -1,6 +1,6 @@
 # Site settings
 author: Tiffany Zhang
-baseurl: "https://hungry-khorana-37eeb2.netlify.com"
+# baseurl: "https://hungry-khorana-37eeb2.netlify.com"
 baseurl: ""
 brand: DDT
 copyright: Dean J. Tantillo
