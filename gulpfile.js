@@ -188,7 +188,7 @@ gulp.task("build:responsive-images", () => {
       quality: 60,
       withMetadata: false,
       withoutEnlargement: true,
-      skipOnEnlargement: false,
+      skipOnEnlargement: true,
       errorOnEnlargement: false
     }))
     .pipe(gulp.dest(paths.jekyllImageFiles + "/responsive"))
