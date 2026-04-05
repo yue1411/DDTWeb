@@ -3,7 +3,7 @@ title: Rotation of C-C bond
 author: Misa
 description: C-C bond rotation of butane.
 category: Sample
-image: butane2-chemdraw.jpeg
+image: butane2-chemdraw.jpg
 ---
 
 <section id="about" class="text-left py-3">
