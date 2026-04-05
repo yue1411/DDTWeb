@@ -3,7 +3,7 @@ title: Primary Ozonide Formation
 author: Misa
 description: Movie of primary ozonide formation.
 category: Sample
-image: ozonide-chemdraw.jpeg
+image: ozonide-chemdraw.jpg
 ---
 
 
