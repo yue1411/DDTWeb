@@ -271,24 +271,20 @@ gulp.task("build:styles:main", () => {
 // -------------------------------------
 //   Task: Build Jekyll
 // -------------------------------------
-gulp.task("build:jekyll", () => {
+gulp.task("build:jekyll", (done) => {
   var shellCommand = "bundle exec jekyll build --config _config.yml";
-  return gulp
-    .src("")
-    .pipe(run(shellCommand))
-    .on("error", log);
+  run(shellCommand).exec();
+  done();
 });
 
 // -------------------------------------
 //   Task: Build Algolia Index
 // -------------------------------------
-gulp.task("build:index-algolia", () => {
+gulp.task("build:index-algolia", (done) => {
   var algolia = process.env.ALGOLIA_API_KEY;
   var shellCommand = "ALGOLIA_API_KEY=" + algolia + " jekyll algolia";
-  return gulp
-    .src("")
-    .pipe(run(shellCommand))
-    .on("error", log);
+  run(shellCommand).exec();
+  done();
 });
 
 // -------------------------------------
