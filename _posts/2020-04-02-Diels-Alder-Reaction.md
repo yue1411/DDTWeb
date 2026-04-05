@@ -3,7 +3,7 @@ title: Diels-Alder Reaction
 author: Misa
 description: Movie of 1,3-butadiene with ethene to form cyclohexene.
 category: Sample
-image: da-chemdraw.jpeg
+image: da-chemdraw.jpg
 ---
 
 
