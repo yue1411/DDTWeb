@@ -204,6 +204,8 @@ gulp.task("build:responsive-images", () => {
 gulp.task("build:images", gulp.parallel("build:normal-images", "build:responsive-images"));
 
 */
+
+
 gulp.task("build:responsive-images", (done) => {
   done();
 });
@@ -248,6 +250,7 @@ gulp.task("build:concat", () => {
 
 gulp.task("build:scripts", gulp.series("build:babel-uglify", "build:concat"));
 
+gulp.task("build:images", gulp.series("build:normal-images"));
 // -------------------------------------
 //   Task: Build Styles
 // -------------------------------------
