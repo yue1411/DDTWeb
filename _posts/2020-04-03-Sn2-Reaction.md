@@ -3,7 +3,7 @@ title: SN2 Reaction
 author: Tiffy
 description: SN2 reaction of chloromethane.
 category: Sample
-image: sn2-chemdraw.jpeg
+image: sn2-chemdraw.jpg
 ---
 
 
