@@ -3,7 +3,7 @@ title: 1,2-hydride Shift
 author: Misa
 description: 1,2-hydride shift of 2-methylbutyl cation.
 category: Sample
-image: hshift-chemdraw.jpeg
+image: hshift-chemdraw.jpg
 ---
 
 
