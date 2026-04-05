@@ -3,7 +3,7 @@ title: Electrocyclic Ring Opening
 author: Elaine, Tiffy
 description: Electrocyclic ring opening of cyclobutene. 
 category: Sample
-image: ringopening_chemdraw.jpeg
+image: ringopening_chemdraw.jpg
 ---
 
 
