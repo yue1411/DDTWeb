@@ -165,6 +165,7 @@ gulp.task("build:normal-images", gulp.series(
 // -------------------------------------
 //   Task: Build Responsive Images
 // -------------------------------------
+/*
 gulp.task("build:responsive-images", () => {
   return gulp
     .src(paths.responsiveImageFilesGlob)
@@ -201,6 +202,11 @@ gulp.task("build:responsive-images", () => {
 });
 
 gulp.task("build:images", gulp.parallel("build:normal-images", "build:responsive-images"));
+
+*/
+gulp.task("build:responsive-images", (done) => {
+  done();
+});
 
 // -------------------------------------
 //   Task: Build Scripts
