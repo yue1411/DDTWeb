@@ -3,7 +3,7 @@ title: E2 Elimination
 author: Misa
 description: Movie of E2 elimination by methoxide.
 category: Sample
-image: e2-chemdraw.jpeg
+image: e2-chemdraw.jpg
 ---
 
 <!-- > Post date: {{ page.date | date: "%b %-d, %Y" }}
