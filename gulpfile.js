@@ -300,7 +300,7 @@ gulp.task("build:travis", gulp.series(
 // -------------------------------------
 gulp.task("install", gulp.series(
   gulp.parallel("copy:bootstrap-scss", "copy:node-js-src"),
-  "serve"
+  "build"
 ));
 
 // -------------------------------------
