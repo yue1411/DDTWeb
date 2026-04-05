@@ -3,7 +3,7 @@ title: Bullvalene Cope Rearrangement
 author: Michelle, Tiffy
 description: Degenerate cope rearrangement of bullvalene. 
 category: Sample
-image: bullvalene.jpeg
+image: bullvalene.jpg
 ---
 
 
