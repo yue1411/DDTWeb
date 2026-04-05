@@ -3,7 +3,7 @@ title: Cyclohexane Conformational Change
 author: Michelle, Tiffy
 description: Twist to boat conformational change of cyclohexane.
 category: Sample
-image: cyclohexane_chemdraw.jpeg
+image: cyclohexane_chemdraw.jpg
 ---
 
 
