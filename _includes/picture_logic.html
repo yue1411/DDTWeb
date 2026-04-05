@@ -1,3 +1,4 @@
+<!-- 
 {%- assign random_img = "https://picsum.photos/640/480/?random" -%}
 {%- assign img_src_path = "/assets/images/responsive/" -%}
 {%- assign img_filename_split_arr = post.image | split: '.' -%}
@@ -8,4 +9,15 @@
 {{ post.image }}
 {%- else -%}
 {{ img_src_path | append: img_filename_split_arr[0] | append: img_size_suffix }}.{{ img_filename_split_arr[1] }}
+{%- endif -%}
+-->
+{%- assign random_img = "https://picsum.photos/640/480/?random" -%}
+{%- assign img_src_path = "/assets/images/normal/" -%}
+{%- assign img_filename_split_arr = post.image | split: '.' -%}
+{%- if post.image == blank -%}
+{{ random_img }}
+{%- elsif post.image contains "http" -%}
+{{ post.image }}
+{%- else -%}
+{{ img_src_path | append: post.image }}
 {%- endif -%}
