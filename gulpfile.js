@@ -169,6 +169,10 @@ gulp.task("build:responsive-images", () => {
   return gulp
     .src(paths.responsiveImageFilesGlob)
     .pipe(responsive({
+      "*-chemdraw.jpg": [
+        { width: 540, rename: { suffix: "-sm-1x" } },
+        { width: 540, rename: { suffix: "-sm-1x", extname: ".webp" } }
+      ],
       "*.jpg": [
         { width: 1140, rename: { suffix: "-xl-1x" } },
         { width: 1140, rename: { suffix: "-xl-1x", extname: ".webp" } },
