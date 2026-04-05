@@ -3,7 +3,7 @@ title: Amine Inversion
 author: Misa
 description: Movie of Amine inversion.
 category: Sample
-image: amine-chemdraw.jpeg
+image: amine-chemdraw.jpg
 ---
 
 
