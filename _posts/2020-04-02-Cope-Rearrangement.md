@@ -3,7 +3,7 @@ title: Cope Rearrangement
 author: Misa
 description: Movie of cope rearrangement.
 category: Sample
-image: cope-chemdraw.jpeg
+image: cope-chemdraw.jpg
 ---
 
 
