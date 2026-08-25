@@ -4,20 +4,143 @@ title: Read Me
 --- -->
 ![Netlify Status](https://api.netlify.com/api/v1/badges/34961cdd-2d2e-4dd2-bf4a-c71ef0e9188c/deploy-status)
 
-## Add new trajectories 
+## Test and add new trajectories from main 2020 version
 > 1. Have your gif and jpg images ready in _assets/ folder. Make sure the dimentions of the cover figures are reasonable. Examples can be found in _assets/ folder. You can change figure dimentions for other figures in _posts/.md file.
 >	2. Open DDTWeb folder in code editor. Make new posts in _posts/ folder for your new reactions. Make edits to .md file.
 >	3. To build: `$lsof -i:3000`, `$kill -9 PID`, `$yarn serve`
 >	4. To push: `$git init`, `$git add .` , `$git commit -m "3rd commit"`, `$git push origin master`, 
 > 5. To deploy: `$netlify init`, `$netlify deploy`.
 
-## Notes 
+## Notes 2020 version
 > Don't add/move/delete any file or folder.
 >
 > Be careful about `_assets/`, nothing other than jpg/gif is allowed.
 >
 > Can only deploy on netlify locally using command line `netlify init`,`netlify deploy`. Remember push to Github before deploy. Note to change baseurl in `/_config.yml` before commit. 
 
+## Upload new trajs by collaborators 2026 version
+## Upload new trajectories
+
+1. Prepare the media for the new system:
+   - one JPG reaction/mechanism figure
+   - one GIF of the IRC
+   - one GIF of the MD trajectory
+
+   Keep each GIF preferably below 3 MB.
+
+2. Accept the GitHub collaborator invitation.
+
+3. Clone the website repository:
+
+   ```bash
+   git clone https://github.com/yue1411/DDTWeb.git
+   cd DDTWeb
+   ```
+
+4. Update `master` and create your own working branch:
+
+   ```bash
+   git checkout master
+   git pull origin master
+   git checkout -b <your-branch-name>
+   git push -u origin <your-branch-name>
+   ```
+
+5. Put the JPG and GIF files in:
+
+   ```text
+   _assets/images/normal/
+   ```
+
+6. In `_posts/`, copy an existing reaction post such as:
+
+   ```text
+   2020-04-02-Diels-Alder-Reaction.md
+   ```
+
+   Rename the copy for the new system.
+
+7. Edit the new `.md` file:
+   - title
+   - author
+   - description
+   - reaction/mechanism image filename
+   - IRC GIF filename
+   - MD GIF filename
+   - reaction description
+   - computational method / level of theory
+
+   Filenames in the Markdown must exactly match the files placed in:
+
+   ```text
+   _assets/images/normal/
+   ```
+
+   Suggested image sizing:
+
+   Mechanism JPG:
+
+   ```html
+   style="width:300px;height:auto;"
+   ```
+
+   IRC and MD GIFs:
+
+   ```html
+   style="width:600px;height:auto;"
+   ```
+
+8. Check your changes:
+
+   ```bash
+   git status
+   ```
+
+9. Add and commit them:
+
+   ```bash
+   git add .
+   git commit -m "Add <system name>"
+   ```
+
+   If Git asks you to configure your identity:
+
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email "your@email.com"
+   ```
+
+   Then run the commit command again.
+
+10. Push your branch:
+
+    ```bash
+    git push origin <your-branch-name>
+    ```
+
+11. On the GitHub repository page, click **Compare & pull request**.
+
+    Confirm:
+
+    ```text
+    base: master
+    compare: <your-branch-name>
+    ```
+
+    Review the changed files and click **Create pull request**.
+
+12. Wait for the automated checks on the Pull Request to finish.
+
+    If the checks pass, send the Pull Request link to the repository administrator.
+
+    If a check fails, send the Pull Request link and the error message to the administrator rather than merging into `master` yourself.
+
+## Notes
+
+- Do not add, move, or delete unrelated files or folders.
+- Only JPG/GIF media files should be added to `_assets/images/normal/`.
+- Do not push changes directly to `master`.
+- Do not deploy the website yourself. Submit a Pull Request and let the repository administrator review and merge it.
 
 <!-- 
 # README from jekyll theme: 
